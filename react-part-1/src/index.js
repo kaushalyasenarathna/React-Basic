@@ -6,20 +6,20 @@ import 'bootstrap/dist/css/bootstrap.min.css';
  
 
 const Header=(props)=>  {
-  const {title ,subtitle} = props
+  const {title ,subTitle} = props
   return(
     <div>
     <h1>{title}</h1>
-    <h2>{subtitle}</h2>
+    <h2>{subTitle}</h2>
 
     </div>
   )
 }
-const Title=({title,subtitle})=>  {
+const Title=({title,subTitle})=>  {
   return(
     <div>
     <h1>{title}</h1>
-    <h2>{subtitle}</h2>
+    <h2>{subTitle}</h2>
 
     </div>
   )
@@ -28,8 +28,8 @@ const Title=({title,subtitle})=>  {
 const App=()=>{
   return(
     <div>
-      <Header title="Hello World" subtitle="Hey React App"/>
-      <Title title="Hello World" subtitle="Hey React App"/>
+      <Header title="Hello World" subTitle="Hey React App"/>
+      <Title title="Hello World" subTitle="Hey React App"/>
 
     </div>
   )
