@@ -15,11 +15,22 @@ const Header=(props)=>  {
     </div>
   )
 }
+const Title=({title,subtitle})=>  {
+  return(
+    <div>
+    <h1>{title}</h1>
+    <h2>{subtitle}</h2>
+
+    </div>
+  )
+}
 
 const App=()=>{
   return(
     <div>
       <Header title="Hello World" subtitle="Hey React App"/>
+      <Title title="Hello World" subtitle="Hey React App"/>
+
     </div>
   )
 }
